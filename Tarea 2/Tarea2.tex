@@ -96,10 +96,20 @@
 
             %Inciso d
             \item Obtenga el ángulo entre los vectores velocidad y aceleración.
-            \\ Decimos que el vector de velocidad es el vector $\overrightarrow{a}$ y que el vector de aceleración es \overrightarrow{b}. Para obtener el ángulo $\theta$ formamos un triángulo, siendo $\overrightarrow{a}-\overrightarrow{b}$ el lado opuesto al ángulo.
+            \\ Decimos que el vector de velocidad es el vector $\overrightarrow{a}$ y que el vector de aceleración es $\overrightarrow{b}$. Para obtener el ángulo $\theta$ formamos un triángulo, siendo $\overrightarrow{a}-\overrightarrow{b}$ el lado opuesto al ángulo.
             \\ Aplicando ley de cosenos, tenemos que: \\
-            $||\overrightarrow{a}-\overrightarrow{b}||^2=||\overrightarrow{a}||^2 + ||\overrightarrow{b}||^2-2||\overrightarrow{a}|| ||\overrightarrow{b}|| cos \theta $ \\
+            $(\overrightarrow{a} \cdot \overrightarrow{b})=||\overrightarrow{a}|| ||\overrightarrow{b}|| cos \theta $ \\
+            Despejamos $Cos \theta$: \\
+            $cos \theta = {(\overrightarrow{a} \cdot \overrightarrow{b}) \over ||\overrightarrow{a}|| ||\overrightarrow{b}||}$ \\ 
             Sustituímos: \\
+            $cos \theta = {((-0.054,1.99) \cdot (-0.99,-0.02)) \over ||(-0.054,1.99)|| ||(-0.99,-0.02)||}$ \\
+            $cos \theta = {((-0.054 \cdot-0.99) + (1.99 \cdot -0.02)) \over \sqrt{(-0.054)^2 + (1.99)^2} \cdot \sqrt{(-0.99)^2 + (-0.02)^2}}$ \\
+            $cos \theta = {0.09326 \over (1.99)(0.99)}$ \\
+            $cos \theta = {0.09326 \over 1.9701}$ \\
+            $cos \theta = {0.04733}$ \\
+            Sacamos coseno inverso: \\
+            $\theta = cos^-1 (0.04733) = 87.29 \delta$
+
         \end{enumerate}
 
 

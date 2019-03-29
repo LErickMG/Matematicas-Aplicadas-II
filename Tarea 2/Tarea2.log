@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.11)  24 MAR 2019 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.11)  28 MAR 2019 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -760,55 +760,16 @@ File: assets/img/ejercicio2(c).png Graphic file (type png)
 <use assets/img/ejercicio2(c).png>
 Package pdftex.def Info: assets/img/ejercicio2(c).png  used on input line 94.
 (pdftex.def)             Requested size: 243.91313pt x 162.60875pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.99 ...ctor de aceleración es \overrightarrow{b}
-                                                  . Para obtener el ángulo ...
-
-? 
-
-LaTeX Warning: Command \' invalid in math mode on input line 99.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.99 ... es \overrightarrow{b}. Para obtener el á
-                                                  ngulo $\theta$ formamos un...
-
-? 
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.99 ... es \overrightarrow{b}. Para obtener el á
-                                                  ngulo $\theta$ formamos un...
-
-? 
-Missing character: There is no � in font cmex10!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.99 ...tarrow{b}. Para obtener el ángulo $\theta
-                                                  $ formamos un triángulo, ...
-
-? 
-
-Overfull \hbox (36.38728pt too wide) in paragraph at lines 98--102
-\OT1/cmr/m/n/10 Decimos que el vec-tor de ve-loci-dad es el vec-tor $[]$ y que 
-el vec-tor de acel-eraci^^Son es $[]\OML/cmm/m/it/10 :Paraobtenerel[]ngulo$$^^R
-$
- []
-
 [1 <./assets/img/ejercicio2(b).png> <./assets/img/ejercicio2(c).png>] [2]
 (./Tarea2.aux) ) 
 Here is how much of TeX's memory you used:
  3393 strings out of 494923
  44328 string characters out of 6180742
- 116501 words of memory out of 5000000
+ 115501 words of memory out of 5000000
  6630 multiletter control sequences out of 15000+600000
  9315 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,14n,26p,292b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,26p,294b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
@@ -819,15 +780,16 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tarea2.pdf (3 pages, 918534 bytes).
+/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Tarea2.pdf (3 pages, 928981 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
