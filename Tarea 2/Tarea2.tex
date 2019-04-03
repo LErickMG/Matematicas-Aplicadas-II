@@ -55,7 +55,47 @@
 
     \begin{enumerate}
         %Ejercicio 1.
-        \item 
+        \item Sea la función vectorial $r(\overrightarrow{t}) = \left(\frac{t}{t+1},\frac{1}{t}\right)$. A continuación responda lo siguiente:
+        \begin{itemize}
+        	\item Calcule el siguiente límite: $$ lim_{t\rightarrow -1}r(\overrightarrow{t})$$
+        	\textbf{Solución:} Observamos que al acercarnos a -1 por la izquierda $t+1$ se hace pequeño negativamente, por tanto 
+        	$\frac{t}{t+1}$ tiende a infinito de manera negativa, análogamente sucede cuando nos acercamos a -1 por la derecha, este
+        	tiende a infinito positivamente. Por tanto no existe el límite en ese punto
+
+
+        	\item Calcule el siguiente límite: $$ lim_{t\rightarrow 0}r(\overrightarrow{t})$$
+        	\textbf{Solución:} Sucede de la misma manera con este límite. Si tiende a 0 por la izquierda $\frac{1}{t}$ tiende a infinito
+        	negativamente. Análogamente cuando tiende por la derecha esto tiende a infinito.
+
+        	\item ¿Para qué valores de $t$ es discontinua la función $r(\overrightarrow{t})$? Explique su resultado.\\
+        	\textbf{Solución:} Como ya mencionamos en los dos puntos anteriores no existe el límite, en los demás la función
+        	es continua. Por tanto en los puntos 0 y -1 la función es discontinua.
+
+        	\item Obtenga y dibuje los vectores velocidad y aceleración, en el punto donde $t = -\frac{1}{2}$.\\
+        	\textbf{Solución:} Encontramos la primera derivada y valuamos
+        	\begin{equation*}
+        	\begin{split}
+        		r'(\overrightarrow{t}) &= \left(\left(\frac{t}{t+1}\right)',(\frac{1}{t})'\right) \\
+        							   &= \left(\frac{1(t+1) - 1(t)}{(t+1)^2},-\frac{1}{t^2}\right) \\
+        							   &= \left(\frac{1}{(t+1)^2},-\frac{1}{t^2}\right) \\
+				r'(\overrightarrow{-\frac{1}{2}}) &= \left(\frac{1}{(-\frac{1}{2}+1)^2},-\frac{1}{(\frac{1}{2})^2}\right) \\        							   &= \left(4,-4\right)
+        	\end{split}
+        	\end{equation*}
+
+        	Encontramos ahora la segunda derivada y valuamos
+        	\begin{equation*}
+        	\begin{split}
+        		r''(\overrightarrow{t}) &= \left(\left(\frac{1}{(t+1)^2}\right)',-\left(\frac{1}{t^2}\right)'\right) \\
+        								&= \left(-\frac{2(t+1)}{(t+1)^4},-\left(\frac{1}{t^2}\right)'\right) \\
+        								&= \left(-\frac{2}{(t+1)^3},\frac{1}{t^4}\right) \\
+        		r''(\overrightarrow{-\frac{1}{2}}) &= \left(-\frac{2}{(-\frac{1}{2}+1)^3},\frac{1}{(-\frac{1}{2})^4}\right) \\
+        								&= \left(-\frac{2}{(-\frac{1}{2}+1)^3},\frac{1}{(-\frac{1}{2})^4}\right) \\
+        								&= \left(-16,16\right) \\
+        	\end{split}
+        	\end{equation*}
+
+
+        \end{itemize}
 
         %Ejercicio 2.
         \item Sea la función vectorial $r (\overrightarrow{t}) = (4cos({t \over 2}),4sin({t \over 2}))$, donde $t \in [0,2\pi]$. A continuación responda lo siguiente:
@@ -96,7 +136,7 @@
 
             %Inciso d
             \item Obtenga el ángulo entre los vectores velocidad y aceleración.
-            \\ Decimos que el vector de velocidad es el vector $\overrightarrow{a}$ y que el vector de aceleración es \overrightarrow{b}. Para obtener el ángulo $\theta$ formamos un triángulo, siendo $\overrightarrow{a}-\overrightarrow{b}$ el lado opuesto al ángulo.
+            \\ Decimos que el vector de velocidad es el vector $\overrightarrow{a}$ y que el vector de aceleración es $\overrightarrow{b}$. Para obtener el ángulo $\theta$ formamos un triángulo, siendo $\overrightarrow{a}-\overrightarrow{b}$ el lado opuesto al ángulo.
             \\ Aplicando ley de cosenos, tenemos que: \\
             $||\overrightarrow{a}-\overrightarrow{b}||^2=||\overrightarrow{a}||^2 + ||\overrightarrow{b}||^2-2||\overrightarrow{a}|| ||\overrightarrow{b}|| cos \theta $ \\
             Sustituímos: \\
@@ -104,7 +144,17 @@
 
 
         %Ejercicio 3.
-        \item
+        \item Sea la función vectorial $r(\overrightarrow{t})=(t^2, 2t-1, t^3)$. Proporcione las ecuaciones paramétricas de
+        la recta que es tangente a la curva, en el punto $t_0=2$.\\
+        \textbf{Solución:} Obtenemos $r(2)= (2^2,2(2) -1 , 2^3)=(4, 3, 8)$. Observamos $$r' = (2t,2,3t^2)$$, obtenemos
+        $r'(2) = (2(2),2,3(2)^2) = (4,2,12)$, este es el vector de dirección. Por tanto las ecuaciones paramétricas son
+        \begin{equation*}
+        \begin{split}
+        	x &= 4t + 4 \\
+        	y &= 2t + 3 \\
+        	z &= 12t + 8
+        \end{split}
+        \end{equation*} 
 
         %Ejercicio 4.
         \item Proporcione la función vectorial $r(\overrightarrow{t})$, tal que cumpla las siguientes condiciones:
@@ -117,9 +167,11 @@
             %Inciso c
             \item $r(0)=(10,10,10)$
         \end{enumerate}
-
+(
         %Ejercicio 5.
-        \item
+        \item En el instante $t = 0$, una partícula se encuentra en el punto $A(1,2,3)$. Viaja siguiendo una línea recta
+        hasta el punto (4,1,4) y tiene una rapidez de 2(en el punto $A$) y aceleración constante $a(t) = 3i - j + k$.
+        Proporcione la ecuación del vector de posición $r(t)$ en el instante $t$.
 
         %Ejercicio 6.
         \item Considere la función vectorial $r(\overrightarrow{t})= ([cos t]^3,[sin t]^3)$. Responda lo siguiente:
