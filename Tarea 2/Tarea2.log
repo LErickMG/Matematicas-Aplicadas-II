@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.12)  3 APR 2019 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.12)  3 APR 2019 02:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,11 +1372,11 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 27799 strings out of 493029
- 558325 string characters out of 6136233
+ 27803 strings out of 493029
+ 558363 string characters out of 6136233
  630784 words of memory out of 5000000
- 30926 multiletter control sequences out of 15000+600000
- 9661 words of font info for 36 fonts, out of 8000000 for 9000
+ 30928 multiletter control sequences out of 15000+600000
+ 10280 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,21n,101p,10465b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
@@ -1398,7 +1398,7 @@ dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
 Output written on "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea
-2.pdf" (6 pages, 989034 bytes).
+2.pdf" (6 pages, 990741 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream

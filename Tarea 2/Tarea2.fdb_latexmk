@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1554277796 "Tarea2.tex" "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea2.pdf" "Tarea2" 1554277798
+["pdflatex"] 1554279851 "Tarea2.tex" "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea2.pdf" "Tarea2" 1554279852
   "/etc/texmf/web2c/texmf.cnf" 1544664043 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea2.aux" 1554277798 285 caf38916beab3dfe227b9a4dab91f2e0 ""
+  "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea2.aux" 1554279852 285 caf38916beab3dfe227b9a4dab91f2e0 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -12,6 +12,8 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -189,8 +191,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1544664070 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1544664093 3854188 37b57d6b77e80fa73491d3c2da9891be ""
-  "Tarea2.aux" 1554277798 285 caf38916beab3dfe227b9a4dab91f2e0 ""
-  "Tarea2.tex" 1554277796 12646 8da89685072c821932214032ab677a4a ""
+  "Tarea2.aux" 1554279852 285 caf38916beab3dfe227b9a4dab91f2e0 ""
+  "Tarea2.tex" 1554279851 13659 2e77cffa4bdc16d1ace72221655963c4 ""
   "assets/img/ejercicio2(b).png" 1553814030 24633 e8518f40469991140fc50e04c28859ef ""
   "assets/img/ejercicio2(c).png" 1553814030 27991 395613c0425dacc7c56176af6f3a7415 ""
   "assets/img/ejercicio8(b).png" 1554271904 21124 c2fdafe8074c8c582f2de72ab5cf9d87 ""
@@ -198,6 +200,6 @@
   (generated)
   "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea2.log"
   "/home/luis/Documentos/Matematicas-Aplicadas-II/Tarea 2/Tarea2.pdf"
-  "Tarea2.aux"
   "Tarea2.pdf"
   "Tarea2.log"
+  "Tarea2.aux"
