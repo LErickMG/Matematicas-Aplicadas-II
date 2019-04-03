@@ -35,7 +35,7 @@
 
     \vspace{.8 cm}
 
-    {\LARGE Tarea 1: \par}
+    {\LARGE Tarea 2: \par}
     {\huge\bfseries Ejercicios \par}
 
     \vspace{0.5cm}
@@ -49,7 +49,7 @@
     \textbf{Matematicas Aplicadas para las Ciencias II}
     impartido por el profesor \textbf{Juan Carlos Balleza}. \par
     \vspace{0.1cm}
-    {\large Entrega 1 de Marzo 2019 \par}
+    {\large Entrega 3 de Abril 2019 \par}
     \footnotesize{\textbf{Link al código fuente:} git@github.com:lemg98/Matematicas-Aplicadas-II.git}
 \end{titlepage}
 
@@ -110,7 +110,7 @@
 
             Obtenemos la derivada de la función $r'(\overrightarrow{t})$ para obtener la {\bf aceleración}:
             \begin{center}
-                $r''(\overrightarrow{t}) = (-cos({t \over 2}),-sin({t \over 2}))$ \\
+                $r''(\overrightarrow{t}) = (-cos({t \over 2}),-\sin({t \over 2}))$ \\
                 \begin{tabular}{|c|c|c|} \hline 
                     t & velocidad & aceleración \\ \hline
                     $0$ & $(0,2) $ & $(-1,0)$  \\ \hline
@@ -138,8 +138,18 @@
             \item Obtenga el ángulo entre los vectores velocidad y aceleración.
             \\ Decimos que el vector de velocidad es el vector $\overrightarrow{a}$ y que el vector de aceleración es $\overrightarrow{b}$. Para obtener el ángulo $\theta$ formamos un triángulo, siendo $\overrightarrow{a}-\overrightarrow{b}$ el lado opuesto al ángulo.
             \\ Aplicando ley de cosenos, tenemos que: \\
-            $||\overrightarrow{a}-\overrightarrow{b}||^2=||\overrightarrow{a}||^2 + ||\overrightarrow{b}||^2-2||\overrightarrow{a}|| ||\overrightarrow{b}|| cos \theta $ \\
+            $$(\overrightarrow{a} \cdot \overrightarrow{b})=||\overrightarrow{a}|| ||\overrightarrow{b}|| \cos \theta $$ \\
+            Despejamos $\cos \theta$: \\
+            $$\cos \theta = {(\overrightarrow{a} \cdot \overrightarrow{b}) \over ||\overrightarrow{a}|| ||\overrightarrow{b}||}$$ \\ 
             Sustituímos: \\
+            $$\cos \theta = {((-0.054,1.99) \cdot (-0.99,-0.02)) \over ||(-0.054,1.99)|| ||(-0.99,-0.02)||}$$ \\
+            $$\cos \theta = {((-0.054 \cdot-0.99) + (1.99 \cdot -0.02)) \over \sqrt{(-0.054)^2 + (1.99)^2} \cdot \sqrt{(-0.99)^2 + (-0.02)^2}}$$ \\
+            $$\cos \theta = {0.09326 \over (1.99)(0.99)}$$ \\
+            $$\cos \theta = {0.09326 \over 1.9701}$$ \\
+            $$\cos \theta = {0.04733}$$ \\
+            Sacamos coseno inverso: \\
+            $$\theta = \cos^-1 (0.04733) = 87.29 \delta$$
+
         \end{enumerate}
 
 
@@ -161,11 +171,23 @@
         %Incisos del Ejercicio 4.
         \begin{enumerate}
             %Inciso a
-            \item $a(t)=(-1,-1,-1)$
+            \item $a(t)=(-1,-1,-1)$ \\
+            $x = 0-t$ ; $y = 0-t$ ; $ z = 0-t$ y $0 \leqslant t \leqslant 1$\\
+            $(x,y,z)=(0-t,0-t,0-t)$ \\
+            $(x,y,z)=(0,0,0)+(-t,-t,-t)$ \\
+            $(x,y,z)=(0,0,0)+t(-1,-1,-1)$ \\
+            $a=(0,0,0)+t(-1,-1,-1)$ 
             %Inciso b
             \item $v(0)=(0,0,0)$
+
             %Inciso c
-            \item $r(0)=(10,10,10)$
+            \item $r(0)=(10,10,10)$ \\
+            $x=10$ ; $y=10$ ; $z=10$ \\
+            $(x,y,z) = (10+0t,10+0t,10+0t)$ \\
+            $(x,y,z) = (10,10,10)+(0t,0t,0t)$ \\
+            $(x,y,z) = (10,10,10)+t(0,0,0)$ \\ 
+            $v = (10,10,10)+t(0,0,0)$
+
         \end{enumerate}
 (
         %Ejercicio 5.
@@ -174,27 +196,66 @@
         Proporcione la ecuación del vector de posición $r(t)$ en el instante $t$.
 
         %Ejercicio 6.
-        \item Considere la función vectorial $r(\overrightarrow{t})= ([cos t]^3,[sin t]^3)$. Responda lo siguiente:
+        \item Considere la función vectorial $r(\overrightarrow{t})= ([\cos t]^3,[\sin t]^3)$. Responda lo siguiente:
         %Incisos del Ejercicio 6.
         \begin{enumerate}
             %Inciso a
-            \item Obtenga el vector tangente unitario a la curva.
+            \item Obtenga el vector tangente unitario a la curva. \\
+            Parametrizamos la función:
+            $r(\overrightarrow{t})= ([\cos t]^3,[\sin t]^3)$ \\
+            $\begin{bmatrix}
+            {d \over dt} \cos^3 t \\
+            {d \over dt} \sin^3 t \\
+            \end{bmatrix}$ \\
+            Encontramos un vector tangente: \\
+            $\begin{bmatrix}
+            -3sin(t)\cos^2(t) \\
+            3sin^2(t)\cos(t) \\
+            \end{bmatrix}$ \\
+            Hacemos negativa la segunda componente para girar 90 grados en sentido de las manecillas del reloj. \\
+            $\begin{bmatrix}
+            3sin^2(t)\cos(t) \\
+            -(-3sin(t)\cos^2(t))\\
+            \end{bmatrix}$ \\
+            Tenemos un vector normal, para hacerlo unitario, debemos dividir entre su magnitud, es decir, \\
+            $$\sqrt{9sin^2(t)\cos^4(t)+9sin^4(t)\cos^2(t)}$$ \\
+            Por lo tanto, la función para el vector unitario es el siguiente: \\
+            $\begin{bmatrix}
+            3sin^2(t)\cos(t) / \sqrt{9sin^2(t)\cos^4(t)+9sin^4(t)\cos^2(t)} \\
+            3sin(t)\cos^2(t) / \sqrt{9sin^2(t)\cos^4(t)+9sin^4(t)\cos^2(t)}\\
+            \end{bmatrix}$ \\
             %Inciso b
-            \item Calcule la longitud de la curva para $t \in [0,{\pi \over 2}]$
+            \item Calcule la longitud de la curva para $t \in [0,{\pi \over 2}]$ \\
+            $$\sqrt{9sin^2(t)\cos^4(t)+9sin^4(t)\cos^2(t)}$$ \\
+            Sustituímos: \\
+            $$\sqrt{9sin^2(0)\cos^4(0)+9sin^4(0)\cos^2(0)} = 0$$ \\
+            $$\sqrt{9sin^2({\pi \over 2})\cos^4({\pi \over 2})+9sin^4({\pi \over 2})\cos^2({\pi \over 2})} = 0$$
         \end{enumerate}
 
         %Ejercicio 7.
-        \item
+        \item ¿Cuáles son las coordenadas $(x,y,z)$ del punto sobre la función vectorial $r(t)=(5\sen t,5\cos t, 12t)$
+        que se encuentran a una distancia de $26\pi$ unidades del punto $(0,5,0)$ y en la dirección en la que crece
+        la longitud del arco?\\
+        \textbf{Solución:} observamos que $r(0) =(5\sen 0, 5\cos 0, 12(0)) = (0,5,0)$. A su vez $$v = (5\cos t,-5\sen t, 12)$$ 
+        por tanto $$|v| = \sqrt{25\cos^2 t + 25\sen^2 t + 144} = \sqrt{25(\cos^2 t + \sen^2 t) + 144} = \sqrt{25+144} = \sqrt{169} = 13$$.
+        Tenemos que $$26\pi = \int_{0}^{x}13 \text{ dt} = 13(x - 0)$$ Por ende $x = \frac{26}{13}\pi = 2\pi$. 
+        Valuamos $r(2\pi) = (5\sen (2\pi), 5\cos (2\pi), 12(2\pi)) = (0,5,24\pi)$
 
         %Ejercicio 8.
-        \item Obtenga la ecuación del círculo osculador para la función $y=sin x$ en el punto de coordenadas $({\pi \over 2},1)$. Proponga $r(\overrightarrow{t})$ a partir de la "parametrización trivial" de la función. Calcule lo siguiente: 
+        \item Obtenga la ecuación del círculo osculador para la función $y=\sin x$ en el punto de coordenadas $({\pi \over 2},1)$. Proponga $r(\overrightarrow{t})$ a partir de la "parametrización trivial" de la función. Calcule lo siguiente: 
         %Incisos del Ejercicio 8.
         \begin{enumerate}
-            \item $(\overrightarrow{T})$, $(\overrightarrow{N})$ y $k$.
+            \item $(\overrightarrow{T})$, $(\overrightarrow{N})$ y $k$.\\
+            Parametrización de la función: \\
+            $x(t) = t \\
+             y(t) = \sin t$
         \end{enumerate}
         Haga una gráfica con la siguiente información:
         \begin{enumerate}
-            \item La función $y=sin x$
+            \item La función $y=\sin x$ \\
+            \begin{center}
+                \includegraphics[scale=.3]{assets/img/ejercicio8(b).png}
+            \end{center}
             \item El círculo osculador y además localizar el punto de coordenadas $({\pi \over 2},1)$
             \item Los vectores $(\overrightarrow{T})$, $(\overrightarrow{N})$.
         \end{enumerate}
